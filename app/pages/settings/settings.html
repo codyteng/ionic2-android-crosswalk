@@ -1,0 +1,54 @@
+<!--
+  Generated template for the SettingsPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Settings</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-label> This is a ist sample</ion-label>
+      <ion-toggle checked="false">Check: false</ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Select: refreh rate</ion-label>
+      <ion-select [(ngModel)]="rate">
+        <ion-option value="1s">1</ion-option>
+        <ion-option value="2s">2</ion-option>
+        <ion-option value="3s">3</ion-option>
+        <ion-option value="4s">4</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>Brightness</ion-label>
+      <ion-range [(ngModel)]="brightness">
+        <ion-icon range-left small name="sunny"></ion-icon>
+        <ion-icon range-right name="sunny"></ion-icon>
+      </ion-range>
+    </ion-item>
+    <ion-item>
+      <ion-label> Toggle: check=false</ion-label>
+      <ion-toggle checked="false">Check: false</ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label> Toggle: check=true</ion-label>
+      <ion-toggle checked="true">Check: true</ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label> Toggle: check=true & disabled</ion-label>
+      <ion-toggle disabled checked="true">Check: true</ion-toggle>
+    </ion-item>
+  </ion-list>
+</ion-content>
