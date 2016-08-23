@@ -18,6 +18,7 @@ Author: CodeDee
     ionic plugin add cordova-plugin-crosswalk-webview
     ```
     Now you should see **cordova-plugin-crosswalk-webview** appear under plugin folder
+    
     |-- ionic2-project
         |-- app
         |-- node_modules
