@@ -86,6 +86,7 @@ Author: CodeDee
         ```
     
     7. Verify your useragent string here:
+    
         https://github.com/crosswalk-project/crosswalk-website/wiki/crosswalk-user-agent
         
     
