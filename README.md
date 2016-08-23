@@ -19,13 +19,13 @@ Author: CodeDee
     ```
     Now you should see **cordova-plugin-crosswalk-webview** appear under plugin folder
     
-    |-- ionic2-project
-        |-- app
-        |-- node_modules
-        |-- plugins
-            |-- cordova-plugin-crosswalk-webview
+        |-- ionic2-project
+            |-- app
+            |-- node_modules
+            |-- plugins
+                |-- cordova-plugin-crosswalk-webview
+                ...
             ...
-        ...
 
 3. Make sure that have installed latest version of **Android Support Repository** & **Google Repository**.
     ```
@@ -63,7 +63,7 @@ Author: CodeDee
                     ...
                 ...
             ...
-        ...
+        
 
     **Hint 2: Inspect useragent of your application with Google Chrome Developer Tools**
     
