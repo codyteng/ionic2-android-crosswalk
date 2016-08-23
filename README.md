@@ -1,7 +1,9 @@
 # Ionic2 with Crosswalk Project
 
 Assume:
+
 1. you already have an working Ionic2 project with the name ionic2-project.
+
 2. you have all dependencies added
 
 Author: CodeDee
